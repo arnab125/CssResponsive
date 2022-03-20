@@ -122,15 +122,15 @@ footer {
         grid-template-columns: auto auto auto auto auto;
     }
     .camera{
-        padding-right: 0px;
+        padding-top: 40px;
     }
     .camera img {
-        width: 75%;
+        width: 100%;
     }
     .secondsec {
         display: grid;
         grid-template-columns: auto;
-        padding: 10px;
+        padding-left: 25px;
     } 
     .ig {
         font-weight: bolder;
@@ -152,7 +152,7 @@ footer {
     .logoflex {
         display: flex;
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto auto;
         grid-template-columns: auto auto auto auto;
         margin-top: 150px;
         border-top: 1px;
@@ -163,6 +163,9 @@ footer {
         border-color: rgba(12, 33, 226, 0.479);
         padding: 20px;
         justify-content: center;
+    }
+    .lf {
+        padding: 30px;
     }
     .cards {
         margin-top: 60px;
@@ -199,6 +202,9 @@ footer {
     }
     .prebookdivo {
         padding-left: 0px;
+    }
+    .prebookdivo img {
+        width: 85%;
     }
     footer {
         text-align: center;
