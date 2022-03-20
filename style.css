@@ -1,0 +1,211 @@
+body {
+    font-family: 'Island Moments', cursive;
+}
+.heading {
+    font-size: x-large;
+    background-color: rgb(22, 233, 68);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+.navi {
+    display: flex;
+    gap: 10px;
+    font-size: large;
+}
+.camera{
+    padding-right: 150px;
+}
+.secondsec {
+    display: flex;
+} 
+.ig {
+    font-weight: bolder;
+}
+
+.prebookdiv {
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.button {
+    color: rgb(12, 12, 12);
+    background-color: rgba(11, 241, 22, 0.719);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.logoflex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: rgba(12, 33, 226, 0.479);
+    padding: 20px;
+}
+.cards {
+    margin-top: 60px;
+}
+.cardt {
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    justify-content: center;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px grey;
+    border: 2px solid black;
+  }
+  .checked {
+    color: rgb(6, 137, 245);
+  }
+  .sm {
+      text-align: right;
+      padding-right: 200px;
+  }
+.padding {
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.prebookdivo {
+    padding-left: 150px;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 50px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: 'Island Moments', cursive;
+    }
+    .heading {
+        font-size: large;
+        background-color: rgb(22, 233, 68);
+        border: 1px solid black;
+        text-align: center;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        font-size: large;
+        gap: 5px;
+    }
+    .navi {
+        display: flex;
+        gap: 10px;
+        font-size: large;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .camera{
+        padding-right: 0px;
+    }
+    .camera img {
+        width: 75%;
+    }
+    .secondsec {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+    } 
+    .ig {
+        font-weight: bolder;
+    }
+    
+    .prebookdiv {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .button {
+        color: rgb(12, 12, 12);
+        background-color: rgba(11, 241, 22, 0.719);
+        padding: 10px;
+        border-radius: 5px;
+        display: inline;
+        border: 2px solid black;
+        font-weight: bold;
+    }
+    .logoflex {
+        display: flex;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 150px;
+        border-top: 1px;
+        border-bottom: 1px;
+        border-left: 0px;
+        border-right: 0px;
+        border-style: solid;
+        border-color: rgba(12, 33, 226, 0.479);
+        padding: 20px;
+        justify-content: center;
+    }
+    .cards {
+        margin-top: 60px;
+    }
+    .cardt {
+        text-align: center;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 40px;
+        justify-content: center;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: 5px 5px 5px 5px grey;
+        border: 2px solid black;
+      }
+      .checked {
+        color: rgb(6, 137, 245);
+      }
+      .sm {
+          text-align: right;
+          padding-right: 20px;
+          color: black;
+      }
+    .padding {
+        padding-left: 0px;
+        padding-top: 0px;
+        word-wrap: break-word;
+    }
+    .prebookdivo {
+        padding-left: 0px;
+    }
+    footer {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        padding: 55px;
+        margin-top: 20px;
+    }
+  }
